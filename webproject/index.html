@@ -1,0 +1,315 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Travel with us!</title> 
+ 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
+ 
+    <!-- font awesome cdn link  --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <!-- custom css file link  --> 
+    <link rel="stylesheet" href="style.css"> 
+ 
+</head> 
+<body> 
+    <div class="container">
+        <div class="outer">
+        <div class="booking"> 
+        <form action="reservation.php" method="post"> 
+        <div class="elem-group"> 
+        <label for="name">Your Name</label> 
+        <input type="text" id="name" name="visitor_name" placeholder="Guldana Dilnaz" pattern=[A-Z\sa-z]{3,20} required> 
+        </div> 
+        <div class="elem-group"> 
+        <label for="phone">Your Phone</label> 
+        <input type="tel" id="phone" name="visitor_phone" placeholder="8701-653-3603" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required> 
+        </div> 
+        <hr> 
+        <div class="elem-group inlined"> 
+        <label for="adult">People</label> 
+        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required> 
+        </div> 
+        
+        <div class="elem-group inlined"> 
+        <label for="checkin-date">Check-in Date</label> 
+        <input type="date" id="checkin-date" name="checkin" required> 
+        </div> 
+        
+        
+        <button type="submit">Book The Rooms</button> 
+        </form> 
+        </div> 
+        </div>
+    </div>
+         
+      <div class="header">
+        <div class="inner_header">
+          <div class="logo_container">
+            <h1>A<span>Group</span></h1>
+            </div>
+            <ul class="navigation">
+            <a href="#home"><li>Home</li></a>
+            <a href="#services"><li>Services</li></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            </ul>
+            
+            </div>
+            </div>
+     
+
+            
+          <!-- packages section starts  --> 
+ 
+       <section class="besties" id="besties">
+        
+        <div class="box-container"> 
+ 
+            <div class="box"> 
+                <img src="корея1.jpg" alt=""> 
+                <div class="content"> 
+                    <h3> <i class="fas fa-map-marker-alt"></i> South Korea </h3> 
+                    <p>Come and see the country where the famous TV series "The Squid Game" was filmed. And if you are a fan of K-pop then you should definitely visit this place!</p> 
+                    <div class="stars"> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                    </div> 
+                    <div class="price"> 250.000тг <span>480.000тг</span> </div> 
+                    <a href="index2.html" class="btn">SEE MORE</a> 
+                </div> 
+            </div> 
+     
+            <div class="box"> 
+                <img src="япония1.jpg" alt=""> 
+                <div class="content"> 
+                    <h3> <i class="fas fa-map-marker-alt"></i>Japan</h3> 
+                    <p>Japan is a land of new technologies. In addition, the anime "Naruto" was created here.                                                                     </p> 
+                    <div class="stars"> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                    </div> 
+                    <div class="price"> 340.000тг <span> 510.000тг</span> </div> 
+                    <a href="index3.html" class="btn">SEE MORE</a> 
+                </div> 
+            </div> 
+     
+            <div class="box"> 
+                <img src="франция1.jpg" alt=""> 
+                <div class="content"> 
+                    <h3> <i class="fas fa-map-marker-alt"></i> France</h3> 
+                    <p>Bonjoooooooooour, we love u PARIS</p> 
+                    <div class="stars"> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                    </div> 
+                    <div class="price"> 330.000тг <span> 550.000тг</span> </div> 
+                    <a href="index4.html" class="btn">SEE MORE</a> 
+                </div> 
+            </div> 
+     
+            <div class="box"> 
+                <img src="usa1.jpg" alt=""> 
+                <div class="content"> 
+                    <h3> <i class="fas fa-map-marker-alt"></i>USA</h3> 
+                    <p>IDK what to write. Just come. Or how about NY?.</p> 
+                    <div class="stars"> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                    </div> 
+                    <div class="price"> 440.000тг <span>630.000тг</span> </div> 
+                    <a href="index5.html" class="btn">SEE MORE</a> 
+                </div> 
+            </div> 
+     
+        </div> 
+     
+    </section> 
+     
+    <!-- besties section ends --> 
+     
+    <!-- services section starts  --> 
+     
+    <section class="services" id="services"> 
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container"> 
+            <div class="box"> 
+                <i class="fas fa-plane"></i> 
+                <h3>best travel</h3> 
+      
+            </div> 
+    
+            <div class="box"> 
+                <i class="fas fa-hotel"></i> 
+                <h3>affordable hotels</h3> 
+                
+            </div> 
+            <div class="box"> 
+                <i class="fas fa-utensils"></i> 
+                <h3>food and drinks</h3> 
+               
+            </div> 
+           
+            
+     
+        </div> 
+     
+    </section> 
+     
+    <!-- services section ends --> 
+     
+    <!-- gallery section starts  --> 
+     
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container"> 
+ 
+            <div class="box"> 
+                <img src="пустыня.jpg" alt=""> 
+                <div class="content"> 
+                    <h3>amazing places</h3> 
+                    <a href="#" class="btn">see more</a> 
+                </div> 
+            </div> 
+            <div class="box"> 
+                <img src="сияние.png" alt=""> 
+                <div class="content"> 
+                    <h3>amazing places</h3> 
+                    <a href="#" class="btn">see more</a> 
+                </div> 
+            </div> 
+            <div class="box"> 
+                <img src="водопад.jpg" alt=""> 
+                <div class="content">
+                    <h3>amazing places</h3> 
+                    <a href="#" class="btn">see more</a> 
+                </div> 
+            </div> 
+            
+     </div> 
+     
+    </section> 
+     
+    <!-- gallery section ends --> 
+     
+    <!-- contact section starts  --> 
+     
+    <section class="contact" id="contact"> 
+     
+        <div class="row"> 
+     
+            <div class="image" style="margin: 25px;"> 
+                <img src="AGroup.jpg" alt=""> 
+            </div> 
+     
+            <form action=""> 
+                <div class="inputBox"> 
+                    <input type="text" placeholder="name"> 
+                    <input type="email" placeholder="email"> 
+                </div> 
+                <div class="inputBox"> 
+                    <input type="number" placeholder="number"> 
+                    <input type="text" placeholder="subject"> 
+                </div> 
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea> 
+                <input type="submit" class="btn" value="send message"> 
+            </form> 
+     
+        </div> 
+         
+    </section> 
+     
+    <!-- contact section ends --> 
+    
+     
+    <!-- footer section  --> 
+     
+    <section class="footer"> 
+     
+        <div class="box-container"> 
+     
+            <div class="box"> 
+                <h3>additional information</h3> 
+                <p>Yeah we are cool baby!!!!!! So bye-bye</p> 
+            </div> 
+            <div class="box"> 
+                <h3>locations</h3> 
+                <a href="index2.html">South Korea</a> 
+                <a href="index4.html">USA</a> 
+                <a href="index3.html">japan</a> 
+                <a href="index5.html">france</a> 
+            </div> 
+            <div class="box"> 
+                <h3>quick links</h3> 
+                <a href="index.html">home</a> 
+                <a href="#services">services</a> 
+                <a href="#gallery">gallery</a> 
+                <a href="#contact">contact</a> 
+            </div> 
+            <div class="box"> 
+                <h3>follow us</h3> 
+                <a href="https://www.instagram.com/__azanbekova/">instagram</a> 
+                <a href="#">facebook</a> 
+                <a href="#">twitter</a> 
+                <a href="#">youtube</a> 
+            </div> 
+     
+        </div> 
+     
+        <h1 class="credit"> created by <span> AGroup designers </span> | HAVE A GOOD DAY! </h1> 
+     
+    </section> 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+     
+    <!-- custom js file link  --> 
+    <script src="script.js"></script> 
+     
+    </body> 
+</html>
